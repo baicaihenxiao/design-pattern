@@ -2,22 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>club.cser</groupId>
-  <artifactId>design-pattern-demo</artifactId>
-  <version>1.0.0</version>
-  <packaging>pom</packaging>
-
-  <name>design-pattern-demo</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-  <modules>
-    <module>singleton</module>
-  </modules>
-
+    <parent>
+        <groupId>club.cser</groupId>
+        <artifactId>design-pattern-demo</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>singleton</artifactId>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>
